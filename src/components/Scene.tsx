@@ -5,7 +5,7 @@ import * as THREE from 'three';
 import { Suspense } from 'react';
 
 const Scene = () => {
-  return(
+  return (
     <Canvas
       camera={{ position: [4, 2, 10], fov: 75 }}
       shadows
@@ -36,6 +36,5 @@ const Scene = () => {
     </Canvas>
   );
 };
-
 
 export default Scene;
